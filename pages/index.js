@@ -36,7 +36,7 @@ export default function Home() {
         <meta name="description" content="Monk-Token" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AppBar position="static" >
+      <AppBar position="static" width="100%">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
