@@ -37,33 +37,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppBar position="static" >
-        <Container maxWidth="xl" width="100%" sx={{bgcolor: "gray"}}>
-          <Toolbar disableGutters>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-            >
-              MONK
-            </Typography>
+        <Toolbar disableGutters>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+          >
+            MONK
+          </Typography>
 
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-            >
-              MONK
-            </Typography>
-            
-            <Box sx={{ flexGrow: 0 }}>
-              <Button onClick={connectWallet} sx={{ p: 0, color:"white" }} variant="outlined">
-                Connect Wallet
-              </Button>
-            </Box>
-          </Toolbar>
-        </Container>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+          >
+            MONK
+          </Typography>
+          
+          <Box sx={{ flexGrow: 0 }}>
+            <Button onClick={connectWallet} sx={{ p: 0, color:"white" }} variant="outlined">
+              Connect Wallet
+            </Button>
+          </Box>
+        </Toolbar>
       </AppBar>
       <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
         <Box
