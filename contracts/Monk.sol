@@ -32,7 +32,7 @@ contract Monk is ERC20, Ownable {
 
     
     constructor() ERC20('Monk', 'MNK') {
-        super._mint(msg.sender, 1000);
+        super._mint(msg.sender, 1000 * 1e18);
     }
 
     function modifyTokenBuyPrice(uint _price) public onlyOwner {

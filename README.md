@@ -13,4 +13,4 @@
 
 UI link = https://fictional-spoon.vercel.app/
 
-Testnet address = https://rinkeby.etherscan.io/address/0xB06840B6b73e8AADCa9a5A6f4Db19c26E536C7EB#code
+Testnet address = https://rinkeby.etherscan.io/address/0xA2A3ac78826ff5edfDD27160CbD992460f9Da35F#code
